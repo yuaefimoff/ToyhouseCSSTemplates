@@ -68,6 +68,10 @@ Setup Wizard
     color: #eae8d7;
 }
 
+.blurb.user-content.fr-view > p {
+    margin-bottom: 3px;
+}
+
 .closeButton {
   color: #eb5757;
 }
@@ -98,7 +102,7 @@ Setup Wizard
   color: #add3ff;
 }
 #userBiography,
-a, .navbar-inverse .navbar-nav .nav-link {
+a, .navbar-inverse .navbar-nav .nav-link, .dropdown-header {
   color: #fff;
 }
 /** End of Master colours**/
@@ -210,7 +214,8 @@ a, .navbar-inverse .navbar-nav .nav-link {
     inset -2px 2px #fbc761, inset 2px -2px #e5a01a;
   transition: none;
 }
-.navbar-notifications-group > .btn {
+.navbar-notifications-group > .btn,
+.nav-item > .btn {
     margin-right: 5px;
 }
 img {
@@ -249,6 +254,7 @@ li.navbar-notifications {
 }
 .side-nav li.divider {
   border: solid 1px #fff;
+  margin: 0;
 }
 .gallery-thumb .thumb-image:hover {
   top: -4px;
@@ -478,4 +484,5 @@ a.nav-link.dropdown-toggle.nav-user-link:after {
 }
 .navbar-nav {
   align-items: center;
+  margin-bottom: 2px;
 }
